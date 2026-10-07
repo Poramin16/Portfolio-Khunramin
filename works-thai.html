@@ -76,6 +76,20 @@ video{width:100%;height:100%;object-fit:cover}
  .section{padding:55px 0}
  h1{font-size:44px}
 }
+.youtube-video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 20px;
+    background: #000;
+}
+
+.youtube-video iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+}
 </style></head><body><header class="nav"><div class="nav-inner">
       <a class="brand" href="index.html">PORT<span>FOLIO</span></a>
       <nav class="menu">
@@ -90,7 +104,25 @@ video{width:100%;height:100%;object-fit:cover}
 <section class="page-hero"><div class="wrap"><a class="back" href="works.html">← กลับผลงานรายวิชา</a><h1>ภาษาไทย</h1><p>ผลงานของรายวิชาภาษาไทย</p></div></section>
 <section class="section wrap">
 <div class="grid">
+<!-- วิดีโอ YouTube -->
+    <article class="card">
 
-<article class="card"><div class="media"><video controls poster="images/vio4.png"><source src="videos/video1.mp4" type="video/mp4"></video></div><h2>ภาษาไทย</h2><p>ของเล่นของใช้สำหรับแมว</p></article>
+        <div class="media youtube-video">
+            <iframe
+                src="https://www.youtube.com/embed/qm6YOZfn7Kc"
+                title="วิดีโอผลงาน"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <h2>ของเล่นของใช้สำหรับแมว</h2>
+
+        <p>
+        ของเล่นและของใช้สำหรับแมวที่ทำจากวัสดุเหลือใช้ในบ้าน
+        </p>
+
+    </article>
 </div>
 </section></main><footer class="footer">ไม่มีใครฉลาดโดยปราศจากการได้รู้จักความโง่เขลามาก่อน</footer></body></html>

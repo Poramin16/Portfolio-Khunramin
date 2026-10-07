@@ -76,6 +76,20 @@ video{width:100%;height:100%;object-fit:cover}
  .section{padding:55px 0}
  h1{font-size:44px}
 }
+.youtube-video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 20px;
+    background: #000;
+}
+
+.youtube-video iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+}
 </style></head><body><header class="nav"><div class="nav-inner">
       <a class="brand" href="index.html">PORT<span>FOLIO</span></a>
       <nav class="menu">
@@ -90,12 +104,90 @@ video{width:100%;height:100%;object-fit:cover}
 <section class="page-hero"><div class="wrap"><a class="back" href="works.html">← กลับผลงานรายวิชา</a><h1>จรรยาบรรณวิชาชีพครู</h1><p>ผลงานรายวิชาจรรยาบรรณวิชาชีพครู</p></div></section>
 <section class="section wrap">
 <div class="grid">
-<article class="card"><div class="media"><img src="images/works1.jpg" alt="ผลงานที่ 01"></div><h2>จรรยาบรรวิชาชีพครู</h2><p>พฤติกรรมที่พึงประสงค์และไม่พึงประสงค์ต่อผู้รับบริการ</p></article>
-<article class="card"><div class="media"><video controls poster="images/vio1.png"><source src="videos/vio1.mp4" type="video/mp4"></video></div><h2>จรรยาบรรวิชาชีพครู</h2><p>พฤติกรรมที่พึงประสงค์ต่อผู้รับบริการ:ให้คำปรึกษาหรือช่วยเหลือศิษย์และผู้รับบริการด้วยความเมตตากรุณาอย่างเต็มกำลังความสามารถและเสมอภาค</p></article>
-<article class="card"><div class="media"><img src="images/works2.png" alt="ผลงานที่ 02"></div><h2>จรรยาบรรวิชาชีพครู</h2><p>จรรยาบรรณวิชาชีพครู5ด้าน9ข้อ</p></article>
-<article class="card"><div class="media"><video controls poster="images/vio2.png"><source src="videos/vio2.mp4" type="video/mp4"></video></div><h2>จรรยาบรรวิชาชีพครู</h2><p>พฤติกรรมที่ไม่พึงประสงค์ต่อผู้รับบริการ:เรียกร้องผลตอบแทนจากศิษย์หรือผู้รับบริการในงานตามหน้าที่ที่ต้องให้บริการ</p></article>
-<article class="card"><div class="media"><img src="images/plo1.png" alt="ผลงานที่ 03"></div><h2>จรรยาบรรวิชาชีพครู</h2><p>PLO's สาขาครุศาสตร์อุตสาหกรรมไฟฟ้า</p></article>
-<article class="card"><div class="media"><video controls poster="images/vio3.png"><source src="videos/vio3.mp4" type="video/mp4"></video></div><h2>จรรยาบรรวิชาชีพครู</h2><p>พฤติกรรมที่ไม่พึงประสงค์ต่อตนเอง:ไม่รับรู้หรือไม่แสวงหาความรู้ใหม่ๆในการจัดการเรียนรู้และปฏิบัติหน้าที่</p></article>
+
+    <!-- ผลงานที่ 01 : รูปภาพ -->
+    <article class="card">
+        <div class="media">
+            <img src="images/works1.jpg" alt="ผลงานที่ 01">
+        </div>
+
+        <h2>จรรยาบรรณต่อผู้รับบริการ</h2>
+        <p>พฤติกรรมที่พึงประสงค์และไม่พึงประสงค์ต่อผู้รับบริการ</p>
+    </article>
+
+
+    <!-- วิดีโอ YouTube ที่ 01 -->
+    <article class="card">
+        <div class="media youtube-video">
+            <iframe
+                src="https://www.youtube.com/embed/i5BAmGD8aa4"
+                title="วิดีโอผลงานที่ 01"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <h2>พฤติกรรมที่พึงประสงค์ต่อผู้รับบริการ</h2>
+        <p>ให้คำปรึกษาหรือช่วยเหลือศิษย์และผู้รับบริการด้วยความเมตตากรุณาอย่างเต็มกำลังความสามารถและเสมอภาค</p>
+    </article>
+
+
+    <!-- ผลงานที่ 02 : รูปภาพ -->
+    <article class="card">
+        <div class="media">
+            <img src="images/works2.png" alt="ผลงานที่ 02">
+        </div>
+
+        <h2>จรรยาบรรณวิชาชีพครู</h2>
+        <p>รายละเอียดจรรยาบรรณวิชาชีพครู5ด้าน9ข้อ</p>
+    </article>
+
+
+    <!-- วิดีโอ YouTube ที่ 02 -->
+    <article class="card">
+        <div class="media youtube-video">
+            <iframe
+                src="https://www.youtube.com/embed/jdjhN7qjRPE"
+                title="วิดีโอผลงานที่ 02"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <h2>พฤติกรรมที่ไม่พึงประสงค์ต่อผู้รับบริการ</h2>
+        <p>เรียกร้องผลตอบแทนจากศิษย์หรือผู้รับบริการในงานตามหน้าที่ที่ต้องให้บริการ</p>
+    </article>
+
+
+    <!-- ผลงานที่ 03 : รูปภาพ -->
+    <article class="card">
+        <div class="media">
+            <img src="images/plo1.png" alt="ผลงานที่ 03">
+        </div>
+
+        <h2>PLO's</h2>
+        <p>PLO's สาขาครุศาสตร์อุตสาหกรรมไฟฟ้า</p>
+    </article>
+
+
+    <!-- วิดีโอ YouTube ที่ 03 -->
+    <article class="card">
+        <div class="media youtube-video">
+            <iframe
+                src="https://www.youtube.com/embed/Z1N191guYd8"
+                title="วิดีโอผลงานที่ 03"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <h2>จรรยาบรรณวิชาชีพครู</h2>
+        <p>จรรยาบรรณวิชาชีพครู5ด้าน9ข้อ</p>
+    </article>
+
 </div>
 </section></main><footer class="footer">หากไร้ความพยายามก็ไร้ความสำเร็จเช่นกัน</footer>
 

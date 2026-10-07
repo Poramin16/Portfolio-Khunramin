@@ -76,6 +76,20 @@ video{width:100%;height:100%;object-fit:cover}
  .section{padding:55px 0}
  h1{font-size:44px}
 }
+.youtube-video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 20px;
+    background: #000;
+}
+
+.youtube-video iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0;
+}
 </style></head><body><header class="nav"><div class="nav-inner">
       <a class="brand" href="index.html">PORT<span>FOLIO</span></a>
       <nav class="menu">
@@ -90,7 +104,50 @@ video{width:100%;height:100%;object-fit:cover}
 <section class="page-hero"><div class="wrap"><a class="back" href="works.html">← กลับผลงานรายวิชา</a><h1>รากเหง้า มทร. อีสาน</h1><p>พื้นที่รวบรวมผลงานของรายวิชา รากเหง้า มทร. อีสาน</p></div></section>
 <section class="section wrap">
 <div class="grid">
-<article class="card"><div class="media"><video controls poster="images/work1.png"><source src="videos/video2.mp4" type="video/mp4"></video></div><h2>ข้อดีและข้อเสียของมทร.อีสาน วิทยาเขตขอนแก่น</h2><p>โจทย์คือให้นักศึกษาแสดงความคิดเห็นเกี่ยวกับข้อดีข้อเสียของมหาวิทยาลัย</p></article>
-<article class="card"><div class="media"><video controls poster="images/work2.png"><source src="videos/video3.mp4" type="video/mp4"></video></div><h2>สัมภาษณ์ผู้ประกอบการ</h2><p>โจทย์คือให้สัมภาษณ์ผู้ประกอบการรอบๆมหาวิทยาลัยพร้อมทั้งแสดงความคิดเห็นเกี่ยวกับ SDGs</p></article>
+
+    <!-- วิดีโอ YouTube -->
+    <article class="card">
+
+        <div class="media youtube-video">
+            <iframe
+                src="https://www.youtube.com/embed/vMH2qgtZxu4"
+                title="วิดีโอผลงาน"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <h2>ข้อดีและข้อเสียของมทร.อีสาน วิทยาเขตขอนแก่น</h2>
+
+        <p>
+            โจทย์คือให้นักศึกษาแสดงความคิดเห็นเกี่ยวกับข้อดีและข้อเสียของมหาวิทยาลัยตามความคิดของนักศึกษา
+        </p>
+
+    </article>
+
+
+    <!-- วิดีโอช่องที่ 2 -->
+    <article class="card">
+
+       
+        <div class="media youtube-video">
+            <iframe
+                src="https://www.youtube.com/embed/97w-8dzQvJQ"
+                title="วิดีโอผลงาน"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <h2>สัมภาษณ์ผู้ประกอบการ</h2>
+
+        <p>
+            โจทย์คือให้นักศึกษาไปสัมภาษณ์ผู้ประกอบการที่อยู่ในจังหวัดขอนแก่นเกี่ยวกับการทำธุรกิจและการประกอบอาชีพ
+        </p>
+
+    </article>
+
 </div>
 </section></main><footer class="footer">ความล้มเหลวเป็นส่วนหนึ่งของความสำเร็จ</footer></body></html>
